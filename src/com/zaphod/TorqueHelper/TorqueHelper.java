@@ -12,12 +12,6 @@ import java.lang.Override;
 
 public class TorqueHelper extends Activity {
 
-    private native final void jniopenserial() throws IllegalStateException;
-
-    private native final void jnigoWinCE() throws IllegalStateException;
-
-    private native final void jnicloseserial() throws IllegalStateException;
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

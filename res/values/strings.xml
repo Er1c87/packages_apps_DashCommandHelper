@@ -16,8 +16,6 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">TorqueHelper</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_torque_helper">TorqueHelper</string>
+    <string name="app_name">Torque</string>
+    <string name="title_activity_torque_helper">Torque</string>
 </resources>
