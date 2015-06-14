@@ -24,9 +24,13 @@ public class TorqueHelper extends Activity {
         super.onResume();
         PackageManager pm = getPackageManager();
         Intent launch = pm.getLaunchIntentForPackage("org.prowl.torque");
-        try {
-            startActivity (launch);
-        } catch(ActivityNotFoundException anf) {
+        if (launch != null) {
+            try {
+                startActivity(launch);
+            } catch (ActivityNotFoundException anf) {
+                finish();
+            }
+        } else {
             finish();
         }
 
