@@ -1,4 +1,4 @@
-package com.zaphod.TorqueHelper;
+package com.zaphod.DashCommandHelper;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -10,7 +10,7 @@ import android.view.MenuItem;
 
 import java.lang.Override;
 
-public class TorqueHelper extends Activity {
+public class DashCommandHelper extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class TorqueHelper extends Activity {
 
         super.onResume();
         PackageManager pm = getPackageManager();
-        Intent launch = pm.getLaunchIntentForPackage("org.prowl.torque");
+        Intent launch = pm.getLaunchIntentForPackage("com.palmerperformance.DashCommand");
         if (launch != null) {
             try {
                 startActivity(launch);
