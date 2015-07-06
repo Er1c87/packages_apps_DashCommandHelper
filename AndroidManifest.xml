@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zaphod.TorqueHelper"
+    package="com.zaphod.DashCommandHelper"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -11,8 +11,8 @@
         android:icon="@drawable/ic_launcher"
         android:theme="@android:style/Theme.Translucent">
         <activity
-            android:name="com.zaphod.TorqueHelper.TorqueHelper"
-            android:label="@string/title_activity_torque_helper"
+            android:name="com.zaphod.DashCommandHelper.DashCommandHelper"
+            android:label="@string/title_activity_dashcommand_helper"
             android:launchMode="singleTop"
             android:excludeFromRecents="true">
             <intent-filter>
